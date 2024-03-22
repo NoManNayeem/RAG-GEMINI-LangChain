@@ -1,12 +1,12 @@
 # RAG-GEMINI-LangChain
 
-RAG-GEMINI-LangChain is a Python-based project designed to integrate Google's Generative AI with LangChain for document understanding and information retrieval. This project enables users to ask questions about the content of PDF documents and receive accurate, context-aware answers. It utilizes Google Generative AI models along with LangChain's powerful document processing and retrieval capabilities.
+`RAG-GEMINI-LangChain` is a Python-based project designed to integrate `Google's Generative AI` with `LangChain` for document understanding and information retrieval. This project enables users to ask questions about the content of PDF documents and receive accurate, context-aware answers. It utilizes Google Generative AI models along with LangChain's powerful document processing and retrieval capabilities.
 
 ## Getting Started
 
 ### Prerequisites
 
-Ensure you have Python 3.8+ and pip installed on your system. This project also requires a virtual environment to manage dependencies.
+Ensure you have Python `3.12.2+` and pip installed on your system. This project also requires a virtual environment to manage dependencies.
 
 ### Installation
 
@@ -24,7 +24,6 @@ cd RAG-GEMINI-LangChain
 ```bash
 python -m venv venv
 ```
-
 
 4. Activate the virtual environment:
 
@@ -45,9 +44,9 @@ pip install -r "Test Gemini RAG/requirements.txt" # for gemini.py
 pip install -r "streamlit_app/requirements.txt" # for app.py
 ```
 
-6. Set up your environment variables by creating a `.env` file in the root directory and adding your Google API Key:
+6. Set up your environment variables by creating a `.env` file in the root directory and adding your Google API Key and then create and activate virtual environemnt:
 ```bash
-
+GOOGLE_API_KEY = Your_GOOGLE_API_KEY
 ```
 
 
@@ -59,7 +58,7 @@ pip install -r "streamlit_app/requirements.txt" # for app.py
 streamlit run streamlit_app/app.py
 ```
 
-- To run the example script for processing a specific PDF and querying it:
+- To run the example script for processing a specific `PDF` and querying it:
 ```bash
 python Test Gemini RAG/gemini.py
 ```
@@ -82,9 +81,6 @@ python Test Gemini RAG/gemini.py
 
 Contributions are welcome! Please open an issue or submit a pull request with your improvements or suggestions.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
